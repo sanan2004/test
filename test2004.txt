@@ -14,6 +14,7 @@ Processes and address spaces are fundamental concepts in computer operating syst
 •	Code Segment: Contains the executable code of the program.
 •	Data Segment: Holds global and static variables.
 •	Heap: Dynamically allocated memory during runtime.
-•	Stack: Manages function calls and local variables.
+•	Stack: Manages function calls and local variables.fdgdhj
 •	Each process has its own address space, providing isolation and protection from other processes. This isolation ensures that one process cannot directly access the memory of another process.
 In summary, a process is an executing instance of a program, and its associated address space defines the range of memory addresses that the process can use. Operating systems use processes and address spaces to enable multitasking, 
+fdsfghj
