@@ -1,0 +1,19 @@
+store and process data. They are commonly used for secure authentication, access control, and payment systems.
+•	Smart cards typically have specialized operating systems tailored to their specific functions and security requirements.
+In each case, the choice of operating system is influenced by the specific requirements and constraints of the device or application. Operating systems for these specialized devices often prioritize factors like real-time responsiveness, energy efficiency, and resource optimization.
+6.	PROCESSES AND ADDRESS SPACES
+ 
+Processes and address spaces are fundamental concepts in computer operating systems. Let's explore each term:
+1.	Processes:
+•	A process is an independent, self-contained unit of execution within a computer program. It consists of an executable program, its associated data, and the execution context (such as the program counter, registers, and the stack).
+•	Processes are managed by the operating system, which allocates resources and ensures their isolation. Each process runs independently, and communication between processes is typically facilitated through inter-process communication (IPC) mechanisms.
+•	Processes provide a way to execute multiple tasks concurrently, enabling multitasking in modern operating systems.
+2.	Address Spaces:
+•	An address space is the range of valid addresses that a process can use to access its memory. It represents the memory view of a process, including areas for code, data, heap, and stack.
+•	The address space of a process is divided into different segments:
+•	Code Segment: Contains the executable code of the program.
+•	Data Segment: Holds global and static variables.
+•	Heap: Dynamically allocated memory during runtime.
+•	Stack: Manages function calls and local variables.
+•	Each process has its own address space, providing isolation and protection from other processes. This isolation ensures that one process cannot directly access the memory of another process.
+In summary, a process is an executing instance of a program, and its associated address space defines the range of memory addresses that the process can use. Operating systems use processes and address spaces to enable multitasking, 
